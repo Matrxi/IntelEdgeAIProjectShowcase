@@ -217,7 +217,7 @@ python ./attendance_system.py ^
 
 ![Alt Text](https://github.com/Matrxi/IntelEdgeAIProjectShowcase/blob/master/attendance_system/attendance_system_in_action.gif)
 
-Check the project file attendance_sheet(https://github.com/Matrxi/IntelEdgeAIProjectShowcase/blob/master/attendance_system/attendance_sheet.xlsx) for the people who were present and cross refrence with face_gallery
+Check the project file [attendance_sheet](https://github.com/Matrxi/IntelEdgeAIProjectShowcase/blob/master/attendance_system/attendance_sheet.xlsx) for the people who were present and cross refrence with face_gallery folder.
 
 Notice that the custom networks should be converted to the
 Inference Engine format (*.xml + *bin) first. To do this use the
