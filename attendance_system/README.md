@@ -213,6 +213,12 @@ python ./attendance_system.py ^
 -fg "C:/face_gallery"
 ```
 
+### Project in Action
+
+![Alt Text](https://github.com/Matrxi/IntelEdgeAIProjectShowcase/blob/master/attendance_system/attendance_system_in_action.gif)
+
+Check the project file attendance_sheet(https://github.com/Matrxi/IntelEdgeAIProjectShowcase/blob/master/attendance_system/attendance_sheet.xlsx) for the people who were present and cross refrence with face_gallery
+
 Notice that the custom networks should be converted to the
 Inference Engine format (*.xml + *bin) first. To do this use the
 [Model Optimizer](https://software.intel.com/en-us/articles/OpenVINO-ModelOptimizer) tool.
