@@ -53,12 +53,6 @@ fail and produce poor crops.
 Image file name is used as a person name during the visualization.
 Use the following name convention: `person_N_name.png` or `person_N_name.jpg`.
 
-### Installation and dependencies
-
-This is a demo application for Intel® OpenVINO™ toolkit.
-It demonstrates a pipeline with several [pre-trained deep learning models](https://software.intel.com/openvino-toolkit/documentation/pretrained-models)
-such face detection,landmarks regression and face reidentification networks.
-
 ## Build
 
 * Go to https://software.intel.com/openvino-toolkit to download and install a toolkit.
