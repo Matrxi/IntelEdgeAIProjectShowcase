@@ -91,10 +91,10 @@ pip install -r requirements.txt
 ### How to download the Models
 
 ``` powershell
-Change directory to : cd /opt/intel/openvino/deployment_tools/open_model_zoo/tools/downloader
-sudo ./downloader.py --name face-detection-retail-0004.xml
-sudo ./downloader.py --name landmarks-regression-retail-0009.xml
-sudo ./downloader.py --name face-reidentification-retail-0095.xml
+Change directory to : cd C:\Program Files (x86)\IntelSWTools\openvino\deployment_tools\open_model_zoo\tools\downloader
+python ./downloader.py --name face-detection-retail-0004.xml
+python ./downloader.py --name landmarks-regression-retail-0009.xml
+python ./downloader.py --name face-reidentification-retail-0095.xml
 ```
 
 ### Running the application:
