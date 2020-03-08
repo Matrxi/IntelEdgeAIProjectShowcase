@@ -57,12 +57,11 @@ Use the following name convention: `person_N_name.png` or `person_N_name.jpg`.
 
 * Go to https://software.intel.com/openvino-toolkit to download and install a toolkit.
 
-* Open a terminal in Linux or Development Command Prompt in Windows and setup
-environment variables to locate libraries:
+* Open a terminal in Windows and setup environment variables to locate libraries:
 
   * Windows
   ```
-  C:\Program Files (x86)\IntelSWTools\openvino_2019.3.379\bin
+  C:\Program Files (x86)\IntelSWTools\openvino\bin
   ```
 
 * Clone this repository using git or download [an archive](https://github.com/Matrxi/IntelEdgeAIProjectShowcase.git):
@@ -89,8 +88,16 @@ To install all the required Python modules you can use:
 ``` sh
 pip install -r requirements.txt
 ```
+### How to download the Models
 
-### Running the demo:
+``` powershell
+Change directory to : cd /opt/intel/openvino/deployment_tools/open_model_zoo/tools/downloader
+sudo ./downloader.py --name face-detection-retail-0004.xml
+sudo ./downloader.py --name landmarks-regression-retail-0009.xml
+sudo ./downloader.py --name face-reidentification-retail-0095.xml
+```
+
+### Running the application:
 
 Running the application with the `-h` option or without
 any arguments yields the following message:
