@@ -55,6 +55,35 @@ Use the following name convention: `person_N_name.png` or `person_N_name.jpg`.
 
 ### Installation and dependencies
 
+This is a demo application for Intel® OpenVINO™ toolkit.
+It demonstrates a pipeline with several [pre-trained deep learning models](https://software.intel.com/openvino-toolkit/documentation/pretrained-models)
+such face detection,landmarks regression and face reidentification networks.
+
+## Build
+
+* Go to https://software.intel.com/openvino-toolkit to download and install a toolkit.
+
+* Open a terminal in Linux or Development Command Prompt in Windows and setup
+environment variables to locate libraries:
+
+  * Windows
+  ```
+  C:\Program Files (x86)\IntelSWTools\openvino_2019.3.379\bin
+  ```
+
+* Clone this repository using git or download [an archive](https://github.com/Matrxi/IntelEdgeAIProjectShowcase.git):
+```
+git clone https://github.com/Matrxi/IntelEdgeAIProjectShowcase.git
+```
+
+* Build
+
+  * Windows (assuming that `openvino_demo\build` is a current working directory)
+  ```
+  "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "Visual Studio 14 Win64" ..
+  "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release
+  ```
+
 The demo depends on:
 - OpenVINO library (2018R5 or newer)
 - Python (any of 2.7+ or 3.4+, which is supported by OpenVINO)
