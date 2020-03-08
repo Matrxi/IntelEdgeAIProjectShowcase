@@ -220,7 +220,4 @@ Inference Engine format (*.xml + *bin) first. To do this use the
 ### Demo output
 
 The demo uses OpenCV window to display the resulting video frame and detections.
-If specified, it also writes output to a file. It outputs logs to the terminal.
-
-## See also
-* [Using Inference Engine Demos](../../README.md)
+It writes output to a file for the attendance of the students.
