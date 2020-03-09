@@ -71,7 +71,7 @@ git clone https://github.com/Matrxi/IntelEdgeAIProjectShowcase.git
 
 * Build
 
-  * Windows (assuming that `openvino_demo\build` is a current working directory)
+  * Windows
   ```
   "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "Visual Studio 14 Win64" ..
   "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release
